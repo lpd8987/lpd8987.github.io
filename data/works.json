@@ -1,0 +1,89 @@
+{
+    "games" : {
+        "description" : "Games, prototypes, and other game-related projects I have worked on over the past few years.",
+        "content" : [
+            {
+                "title" : "Shock Lobster: Shock & Claw",
+                "tagline" : "\"In this gauntlet of sparks and robotic lobsters, will you shock and claw your way to the top?\"",
+                "created" : "September 2022 - Present",
+                "tech" : "Blender, Unity 3D, Unity Universal Render Pipeline, Unity Shader Graph, Adobe Illustrator, C#",
+                "description": "This is a passion project I have been working on since September 2022 that originated from a silly idea I had one day while brainstorming. The project is built using open source assets from the Unity Asset Store as well as many of my own creation. My assets include: animated and textured 3D models using Blender, and smooth and thematic UI using Adobe Illustrator. The current prototype has been playtested, but there is still a lot of room for improvement that is currently underway.\nAdditionally, I have been overhauling the scripts from the original prototype to be more cohesive as well as developer friendly. Namely, scripts are now broken up more appropriately, many settable variables in the inspector have descriptor headers, and the code includes more comments. Check back frequently for updates as March 2023 will be a very development heavy month!",
+                "link": ""
+            },
+            {
+                "title" : "An Empire of Bronze",
+                "created" : "December 2022 - January 2022",
+                "description": "",
+                "link": ""
+            },
+            {
+                "title" : "Potions of Anxiety",
+                "created" : "October 2022 - November 2022",
+                "description": "",
+                "link": ""
+            },
+            {
+                "title" : "Abaddon",
+                "created" : "January 2022 - May 2022",
+                "description": "",
+                "link": ""
+            },
+            {
+                "title" : "The Dungeon Under Chicago",
+                "created" : "October 2021 - November 2021",
+                "description": "",
+                "link": ""
+            },
+            {
+                "title" : "Wizdoku",
+                "created" : "September 2021 - October 2021",
+                "description": "",
+                "link": ""
+            }
+        ]
+    },
+    "web-apps" : {
+        "description" : "Web applications and websites I have worked on over the past few years.",
+        "content" : [
+            {
+                "title" : "Coin Collector",
+                "created" : "November 2022 - December 2022",
+                "description": "",
+                "link": "",
+                "github-link" : ""
+            },
+            {
+                "title" : "Appunti Italiani - API",
+                "created" : "September 2022 - October 2022",
+                "description": "",
+                "link": "",
+                "github-link" : ""
+            },
+            {
+                "title" : "Dead by Memelight",
+                "created" : "August 2022",
+                "description": "",
+                "link": ""
+            },
+            {
+                "title" : "Jello Jump",
+                "created" : "April 2022 - May 2022",
+                "description": "",
+                "link": ""
+            },
+            {
+                "title" : "Animazione Italiana",
+                "created" : "April 2022 - May 2022",
+                "description": "",
+                "link": ""
+            },
+            {
+                "title" : "Eques",
+                "created" : "April 2021 - May 2021",
+                "description": "",
+                "link": ""
+            }
+        ]
+    }
+    
+}
