@@ -6,26 +6,32 @@
                 "title" : "Shock Lobster: Shock & Claw",
                 "tagline" : "\"In this gauntlet of sparks and robotic lobsters, will you shock and claw your way to the top?\"",
                 "created" : "September 2022 - Present",
-                "tech" : "Blender, Unity 3D, Unity Universal Render Pipeline, Unity Shader Graph, Adobe Illustrator, C#",
+                "tech" : "Blender, Github, Unity 3D, Unity Universal Render Pipeline, Unity Shader Graph, Adobe Illustrator, C#",
                 "description": "This is a passion project I have been working on since September 2022 that originated from a silly idea I had one day while brainstorming. The project is built using open source assets from the Unity Asset Store as well as many of my own creation. My assets include: animated and textured 3D models using Blender, and smooth and thematic UI using Adobe Illustrator. The current prototype has been playtested, but there is still a lot of room for improvement that is currently underway.\nAdditionally, I have been overhauling the scripts from the original prototype to be more cohesive as well as developer friendly. Namely, scripts are now broken up more appropriately, many settable variables in the inspector have descriptor headers, and the code includes more comments. Check back frequently for updates as March 2023 will be a very development heavy month!",
                 "link": ""
             },
             {
                 "title" : "An Empire of Bronze",
+                "tagline" : "\"The ways of old have returned! Will you walk the path of the old gods, and forge an empire of bronze?\"",
                 "created" : "December 2022 - January 2022",
-                "description": "",
+                "tech" : "Visual Studio Code, Adobe Illustrator, ParadoxScript",
+                "description": "This is a mod I created independently for the popular tactical history rpg Crusader Kings 3. Its lore is centered around bringing back the long gone kingdoms of the Bronze Age, with a twist of fantasy. All of the specifics can be found on the Steam Workshop page. The most challenging part of this project was trying to incorporate the correct variable and file structure outlined in the doucmentation, as most of it details modding prior versions of the game.",
                 "link": ""
             },
             {
                 "title" : "Potions of Anxiety",
+                "tagline" : "\"What lurks in the shadows of the mind?\"",
                 "created" : "October 2022 - November 2022",
-                "description": "",
+                "tech" : "Twine, Corel Painter Essentials 5, HTML, CSS, JavaScript",
+                "description": "This is an interactive narrative I made for my Introduction to Interactive Narratives class in Fall 2022. Utilizing Twine, storytelling techniques, and basic CSS styling, I tried my hand at writing a narrative with multiple endings. ",
                 "link": ""
             },
             {
                 "title" : "Abaddon",
+                "tagline" : "\"In this 3D adventure game, use the unstable powers of pixie dust to regain your lost honor!\"",
                 "created" : "January 2022 - May 2022",
-                "description": "",
+                "tech" : "Unity 3D, Unity HDRP Render Pipeline, Perforce Version Control, Confluence (Documentation), C#",
+                "description": "This is a senior capstone project I had the opportunity to work on in Spring 2022. As a programmer, my job was to create different dialogue systems using Unity's scriptable objects and coroutines. The dialogue system is similar to games like Undertale or Animal Crossing, in which each letter of a line of dialogue is printed one at a time, each playing a noise of character \"voice\". The output could then be further augmented by allowing devs to tweak pauses between letters and punctuation, as well as easily assign sets of sound clips held in scriptable objects.\nFurther, there were 3 different types of dialogue to implement: Ambient- triggered by walking up to NPCs and LERPing opacity, Tutorial- triggered by game events, and repeats until a specific condition is met, and Conversational- dialogue that creates a back-and-forth character interaction with different dialogue choices.",
                 "link": ""
             },
             {
