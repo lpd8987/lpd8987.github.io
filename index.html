@@ -4,10 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="js/works.js"></script>
+    <link rel="stylesheet" href="styles/main-style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Louie's Portfolio</title>
 </head>
 <body>
     <h1>LD Portfolio Page</h1>
     <p>more content to come!</p>
+
+
+    <div class="modal is-active">
+        <div>
+            <h1 class="title" id="modalTitle"></h1>
+            <h2 class="subtitle" id="modalCreated"></h2>
+        </div>
+
+        <div class="columns">
+            <div class="column">
+                <img src="media/square.jpg" alt="">
+            </div>
+    
+            <div class="column">
+                <div class="content">
+                    <h2 class="subtitle">Tech</h2>
+                    <p id="modalTech"></p>
+                </div>
+    
+                <div class="content">
+                    <h2 class="subtitle">About</h2>
+                    <ul id="modalList"></ul>
+                    <p id="modalDesc"></p>
+                </div>
+            </div>
+        </div>
+        
+        <div>
+            <a class="button" id="modalLink" href="">Link</a>
+            <a class="button" id="modalGitLink" href="">GitHub</a>
+        </div>
+    </div>
+    
 </body>
 </html>
