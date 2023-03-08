@@ -1,0 +1,57 @@
+<!--Modal Menu-->
+<div id="modalMenu" class="is-hidden content box p-3 m-3 ml-4">
+    <div class="columns is-centered">
+        <div class="column is-7">
+            <div>
+                <h1 class="title" id="modalTitle"></h1>
+                <h2 class="subtitle" id="modalCreated"></h2>
+            </div>
+
+            <img id="modalImg" src="media/square.jpg" alt="photo of project">
+        </div>
+
+        <div class="column is-4">
+            <div class="content">
+                <h2 class="subtitle">Tech</h2>
+                <p id="modalTech" class="column is-three-quarters"></p>
+            </div>
+
+            <div class="content">
+                <div class="columns">
+                    <h2 class="column is-half subtitle mb-0">About</h2>
+                    <div class="column">
+                        <button id="switchBtn" class="button size-medium">Switch to bullet points</button>
+                    </div>
+                </div>
+
+                <div class="columns">
+                    <ul id="modalList" class="column is-full"></ul>
+                    <p id="modalDesc" class="column is-full"></p>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column is-three-fifths">
+                    <a class="button is-fullwidth" id="modalLink" href="">
+                        <i class="fas fa-link"></i>
+                        &nbsp
+                        Project
+                    </a>
+                </div>
+
+                <div class="column is-three-fifths">
+                    <a class="button is-fullwidth" id="modalGitLink" href="">
+                        <i class="fab fa-github"></i>
+                        &nbsp
+                        GitHub
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="column is-narrow is-1">
+            <button id="closeBtn" class="delete is-large"></button>
+        </div>
+    </div>
+</div>

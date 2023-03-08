@@ -5,17 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Styles-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="css/main-style.css">
+
+    <!--Scripts-->
     <script src="https://kit.fontawesome.com/a5911a690a.js" crossorigin="anonymous"></script>
+    <script src="js/navbar.js"></script>
+    
     <title>Louie's Portfolio</title>
 </head>
 
-<body class="is-dark has-text-bold is-size-5">
+<body class="has-text-bold is-size-5">
     <!--Navbar-->
     <nav class="navbar has-shadow is-black">
         <div class="navbar-brand">
-            <a class="navbar-item" href="index.html">
+            <a class="navbar-item has-background-white has-text-black" href="index.html">
                 <i class="fas fa-keyboard fa-lg"></i>
             </a>
 
@@ -26,37 +32,82 @@
             </a>
         </div>
 
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div id="navbarBasicExample" class="navbar-menu has-text-black">
             <div class="navbar-start">
                 <a class="navbar-item" href="index.html">
+                    <i class="fas fa-house fa-lg"></i>
+                    &nbsp
                     Home
                 </a>
 
                 <a class="navbar-item" href="works.html">
+                    <i class="fas fa-laptop fa-lg"></i> 
+                    &nbsp
                     Works
                 </a>
 
-                <a class="navbar-item is-active" href="about.html">
+                <a class="navbar-item has-background-white has-text-black" href="about.html">
+                    <i class="fas fa-user-tie fa-lg"></i>
+                    &nbsp
                     About
                 </a>
             </div>
 
             <div class="navbar-end">
-                <a class="navbar-item">
+                <a class="navbar-item" href="https://github.com/lpd8987/">
                     <i class="fab fa-square-github fa-lg"></i>
                 </a>
 
-                <a class="navbar-item">
+                <a class="navbar-item" href="https://www.linkedin.com/in/louis-d-angelo-8617aa1b7/">
                     <i class="fab fa-linkedin fa-lg"></i>
                 </a>
             </div>
         </div>
     </nav>
 
-    <h1>Hello User,</h1>
+    <div class="content">
+        <div class="columns">
+            <div id="photoDiv" class="column">
+                <img id="photo" class="content mt-5" src="media/Louie-Cropped.jpg" alt="professional photo of Louie">
+            </div>
 
+            <div id="introduction" class="column m-5">
+                <h1 class="title has-text-white">Hello!</h1>
+                <p class="mt-5 has-text-white">I'm Louie, I am a senior at the Rochester Institute of Technology studying Game Design and Development. During my time in school, I have been honing my programming skills both in and out of the classroom to create some excellent projects! I am most proficient with C# and web programming languages like CSS and JavaScript. Programming to me is always a puzzle, and a fun one to solve at that!<br><br>I'm not just a programmer though, I also enjoy 3D Modeling, Animating, Drawing, and Writing, all skills that have proven helpful in creating games like my current pet project Shock Lobster: Shock & Claw!<br><br>If you have any questions about my work or myself, or would simply like to get in touch, my primary methods of communication, as well as a link to my Github can be found below.</p>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column">
+                <a class="button is-outlined is-light is-size-4 is-fullwidth mt-5" href="https://www.linkedin.com/in/louis-d-angelo-8617aa1b7/">
+                    <i class="fab fa-linkedin"></i>
+                    &nbsp
+                    LinkedIn - Louis D'Angelo
+                </a>
+                <div class="button is-outlined is-light is-size-4 is-fullwidth mt-5">
+                    <i class="fas fa-inbox"></i>
+                    &nbsp
+                    Email - dangelo.louie@gmail.com
+                </div>
+            </div>
+            <div class="column">
+                <a class="button is-outlined is-light is-size-4 is-fullwidth mt-5" href="https://github.com/lpd8987/">
+                    <i class="fab fa-square-github"></i>
+                    &nbsp
+                    Github - lpd8987
+                </a>
+                <a class="button is-outlined is-light is-size-4 is-fullwidth mt-5" href="resume.html">
+                    <i class="fas fa-file"></i>
+                    &nbsp
+                    Resume - Programmer
+                </a>
+            </div>
+        </div>        
+    </div>    
+
+    <!--Footer-->
     <nav class="navbar has-shadow is-black is-fixed-bottom">
-        <h2 class="navbar-item is-expanded">Louie D'Angelo 2023</h2>
+        <h2 class="navbar-item has-text-white">Louie D'Angelo 2023</h2>
     </nav>
 </body>
 

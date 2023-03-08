@@ -5,19 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/works.js"></script>
+
+    <!--Styles-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="css/main-style.css">
+
+    <!--Scripts-->
     <script src="https://kit.fontawesome.com/a5911a690a.js" crossorigin="anonymous"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/works.js"></script>
+    
     <title>Louie's Portfolio</title>
 </head>
 
-<body class="is-dark">
+<body class="has-text-bold is-size-5">
     <!--Navbar-->
     <nav class="navbar has-shadow is-black">
         <div class="navbar-brand">
-            <a class="navbar-item" href="index.html">
-                <i class="fas fa-keyboard fa-2x"></i>
+            <a class="navbar-item has-background-white has-text-black" href="index.html">
+                <i class="fas fa-keyboard fa-lg"></i>
             </a>
 
             <a role="button" class="navbar-burger" data-target="navbarBasicExample">
@@ -27,34 +33,40 @@
             </a>
         </div>
 
-        <div id="navbarBasicExample" class="navbar-menu is-active">
+        <div id="navbarBasicExample" class="navbar-menu has-text-black">
             <div class="navbar-start">
                 <a class="navbar-item" href="index.html">
+                    <i class="fas fa-house fa-lg"></i>
+                    &nbsp
                     Home
                 </a>
 
-                <a class="navbar-item is-active" href="works.html">
+                <a class="navbar-item has-background-white has-text-black" href="works.html">
+                    <i class="fas fa-laptop fa-lg"></i> 
+                    &nbsp
                     Works
                 </a>
 
                 <a class="navbar-item" href="about.html">
+                    <i class="fas fa-user-tie fa-lg"></i>
+                    &nbsp
                     About
                 </a>
             </div>
 
             <div class="navbar-end">
-                <a class="navbar-item">
-                    <i class="fab fa-square-github fa-2x"></i>
+                <a class="navbar-item" href="https://github.com/lpd8987/">
+                    <i class="fab fa-square-github fa-lg"></i>
                 </a>
 
-                <a class="navbar-item">
-                    <i class="fab fa-linkedin fa-2x"></i>
+                <a class="navbar-item" href="https://www.linkedin.com/in/louis-d-angelo-8617aa1b7/">
+                    <i class="fab fa-linkedin fa-lg"></i>
                 </a>
             </div>
         </div>
     </nav>
 
-    <h1>Hello User,</h1>
+    <h1>Hello User,</h1>    
     <!--Modal Menu-->
     <div id="modalMenu" class="is-hidden content box p-3 m-3 ml-4">
         <div class="columns is-centered">
@@ -113,8 +125,9 @@
         </div>
     </div>
 
+    <!--Footer-->
     <nav class="navbar has-shadow is-black is-fixed-bottom">
-        <h2 class="navbar-item is-expanded">Louie D'Angelo 2023</h2>
+        <h2 class="navbar-item has-text-white">Louie D'Angelo 2023</h2>
     </nav>
 </body>
 

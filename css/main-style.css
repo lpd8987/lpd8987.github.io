@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Genos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@600&display=swap');
 
 @keyframes animatedBackground {
     from {
@@ -10,7 +10,7 @@
 }
 
 img {
-    max-width: 300px;
+    max-width: 400px;
 }
 
 html {
@@ -21,15 +21,43 @@ html {
     animation: animatedBackground 180s linear infinite;
 }
 
-body {
+body, button {
     font-family: 'Genos', sans-serif;
     font-size: large;
 }
 
-.navbar-menu {
-    background-color: black;
+#greetingBubble {
+    margin-bottom: 25px;
+    padding: 25px;
+    background-color: darkslategrey;
+    background-position: 0px 0px;
+    border-radius: 40px 40px 40px 0px;
 }
 
-h2 {
-    color: white;
+#userBubble {
+    margin-top: 25px;
+    padding: 25px;
+    background-color: grey;
+    background-position: 0px 0px;
+    border-radius: 40px 40px 0px 40px;
+}
+
+#introduction {
+    background-color: darkslategrey;
+    border-radius: 0px 40px 40px 40px;
+}
+
+#photo {
+    border: 3px solid white;
+    max-height: 500px;
+}
+
+#photoDiv {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.navbar-menu {
+    background-color: black;
 }
