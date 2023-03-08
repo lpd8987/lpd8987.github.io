@@ -10,7 +10,8 @@
 }
 
 img {
-    max-width: 400px;
+    width: 400px;
+    min-width: 100px;
 }
 
 html {

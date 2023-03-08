@@ -18,6 +18,9 @@ let modalGitLink;
 
 let switchBtn;
 
+let contentDivA;
+let contentDivB;
+
 //Uses the fetch API to get JSON data at the given URL
 const fetchData = async (url) => {
     const rawData = await fetch(url);
@@ -25,11 +28,53 @@ const fetchData = async (url) => {
 }
 
 const clearProjectDivs = () => {
-
+    //TODO- eventually will make page flip between game and web projects
 }
 
-const createProjectDiv = (targetElement, projObj) => {
+const createProjectDiv = (targetParent, projObj) => {
+    let newDiv = document.createElement("div");
 
+    //let img = document.createElement("img");
+    //img.src = projObj.img;
+    //img.alt = `Picture of ${projObj.title}`;
+    //newDiv.appendChild(img);
+
+    let h2 = document.createElement("h1");
+    h2.innerHTML = projObj.title;
+    h2.classList.add("has-text-white")
+    newDiv.appendChild(h2);
+    
+    let h3 = document.createElement("p");
+    h3.innerHTML = projObj.created;
+    h3.classList.add("has-text-white")
+    h2.appendChild(h3);
+
+    //newDiv.style.width = "100vw";
+    newDiv.style.height = "90px";
+    newDiv.classList.add("button", "is-outlined", "is-fullwidth", "is-light", "m-1", "p-1");
+
+    targetParent.appendChild(newDiv);
+    newDiv.onclick = () => {openModal(projObj)};
+}
+
+const addGameProjects = () => {
+    let gameHeader = document.createElement("h1");
+    gameHeader.innerHTML = data.games.description;
+    gameHeader.classList.add("has-text-light", "m-3");
+    contentDivA.appendChild(gameHeader);
+    for(let i = data.games.content.length-1; i > -1; i--){
+        createProjectDiv(contentDivA, data.games.content[i]);
+    }
+}
+
+const addWebProjects = () => {
+    let webHeader = document.createElement("h1");
+    webHeader.innerHTML = data.webApps.description;
+    webHeader.classList.add("has-text-light", "m-3");
+    contentDivB.appendChild(webHeader);
+    for(let i = data.webApps.content.length-1; i > -1; i--){
+        createProjectDiv(contentDivB, data.webApps.content[i]);
+    }
 }
 
 //Sets the data in the modal menu
@@ -99,7 +144,8 @@ const closeModal = () => {
     modalMenu.classList.add("is-hidden");
 }
 
-const openModal = () => {
+const openModal = (projObj) => {
+    setModalData(projObj, false)
     modalMenu.classList.remove("is-hidden");
 }
 
@@ -107,6 +153,9 @@ window.onload = async () => {
     data = await fetchData("../data/works.json");
 
     modalMenu = document.getElementById("modalMenu");
+    modalMenu.style.position = "sticky";
+    modalMenu.style.zIndex = "1000";
+
 
     projTitle = document.getElementById("modalTitle");
     projCreated = document.getElementById("modalCreated");
@@ -124,6 +173,9 @@ window.onload = async () => {
     switchBtn.onclick = switchDesc;
     closeBtn.onclick = closeModal;
 
-    //setModalData(data.games.content[2], descListActive);
-    //console.log(data);
+    contentDivA = document.getElementById("contentDivA");
+    contentDivB = document.getElementById("contentDivB");
+
+    addGameProjects();
+    addWebProjects();
 };

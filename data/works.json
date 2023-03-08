@@ -94,7 +94,7 @@
             }
         ]
     },
-    "web-apps" : {
+    "webApps" : {
         "description" : "Web applications, websites, and web games I have worked on over the past few years.",
         "content" : [
             {
