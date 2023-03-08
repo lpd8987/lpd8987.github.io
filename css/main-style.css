@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos&display=swap');
+
+@keyframes animatedBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+}
+
+img {
+    max-width: 300px;
+}
+
+html {
+    background-color: white;
+    background-image: url("../media/background.jpg"); /*By rawpixel.com on Freepik*/
+    background-position: 0px 0px;
+    background-repeat: repeat x;
+    animation: animatedBackground 180s linear infinite;
+}
+
+body {
+    font-family: 'Genos', sans-serif;
+    font-size: large;
+}
+
+.navbar-menu {
+    background-color: black;
+}
+
+h2 {
+    color: white;
+}

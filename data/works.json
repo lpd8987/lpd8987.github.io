@@ -6,7 +6,7 @@
                 "title" : "Shock Lobster: Shock & Claw",
                 "created" : "September 2022 - Present",
                 "tech" : "Blender, Github, Unity 3D, Unity Universal Render Pipeline, Unity Shader Graph, Adobe Illustrator, C#",
-                "details": "This is a passion project I have been working on since September 2022 that originated from a silly idea I had one day while brainstorming. The project is built using open source assets from the Unity Asset Store as well as many of my own creation. My assets include: animated and textured 3D models using Blender, and smooth and thematic UI using Adobe Illustrator. The current prototype has been playtested, but there is still a lot of room for improvement that is currently underway.\nAdditionally, I have been overhauling the scripts from the original prototype to be more cohesive as well as developer friendly. Namely, scripts are now broken up more appropriately, many settable variables in the inspector have descriptor headers, and the code includes more comments. Check back frequently for updates as March 2023 will be a very development heavy month!",
+                "details": "This is a passion project I have been working on since September 2022 that originated from a silly idea I had one day while brainstorming. The project is built using open source assets from the Unity Asset Store as well as many of my own creation. My assets include: animated and textured 3D models using Blender, and smooth and thematic UI using Adobe Illustrator. The current prototype has been playtested, but there is still a lot of room for improvement that is currently underway. Check back frequently for updates as March 2023 will be a very development heavy month!",
                 "points": [
                     "Independent passion project",
                     "Utilizes open source and self made assets",
@@ -14,7 +14,8 @@
                     "Organized code",
                     "First prototype completed, more polished version in development"
                 ],
-                "link": "https://github.com/lpd8987/ShockLobster/releases/tag/v0.0.4-pre-alpha"
+                "link": "https://github.com/lpd8987/ShockLobster/releases/tag/v0.0.4-pre-alpha",
+                "img": "media/ShockLobster.png"
             },
             {
                 "title" : "An Empire of Bronze",
@@ -27,7 +28,8 @@
                     "Adds additional roleplay opportunties (details on Steam Workshop page)",
                     "Experience reading and understanding documentation to aid development"
                 ],
-                "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2921475285"
+                "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2921475285",
+                "img": "media/archaios-mod.png"
             },
             {
                 "title" : "Potions of Anxiety",
@@ -40,7 +42,8 @@
                     "Basic CSS styling and HTML formatting",
                     "First attempt at writing original story"
                 ],
-                "link": "https://people.rit.edu/lpd8987/529/Twine3/Potions%20of%20Anxiety.html"
+                "link": "https://people.rit.edu/lpd8987/529/Twine3/Potions%20of%20Anxiety.html",
+                "img": "media/potions-of-anxiety.png"
             },
             {
                 "title" : "Abaddon",
@@ -55,7 +58,8 @@
                     "Tutorial Dialogue- triggered by game events, and repeats until a specific condition is met",
                     "Conversational Dialogue- dialogue that creates a back-and-forth character interaction with different dialogue choices."
                 ],
-                "link": "https://joshmontague.itch.io/abaddon"
+                "link": "https://joshmontague.itch.io/abaddon",
+                "img": "media/abaddon.png"
             },
             {
                 "title" : "The Dungeon Under Chicago",
@@ -70,7 +74,8 @@
                     "Basic enemy AI scripting behaviors (shooting projectiles, follow player)"
                 ],
                 "link": "https://drive.google.com/file/d/15a3NdPe33SgQ-iY6E-pGK0sNPjiGkSqE/view",
-                "git": "https://github.com/Aaron875/The-Dungeon-Under-Chicago-"
+                "git": "https://github.com/Aaron875/The-Dungeon-Under-Chicago-",
+                "img": "media/dungeon.png"
             },
             {
                 "title" : "Wizdoku",
@@ -84,7 +89,8 @@
                     "Basic enemy AI strategy (place tile) and tile effects"
                 ],
                 "link" : "https://drive.google.com/file/d/1Rt5TuJuowQR3yeLGgneKMt5DjSomkKRL/view",
-                "git" : "https://github.com/Aaron875/WizDoku"
+                "git" : "https://github.com/Aaron875/WizDoku",
+                "img": "media/wizdoku.png"
             }
         ]
     },
@@ -103,7 +109,8 @@
                     "Account management system"
                 ],
                 "link": "https://ld-project-2.herokuapp.com/",
-                "git": "https://github.com/lpd8987/430-Project-2"
+                "git": "https://github.com/lpd8987/430-Project-2",
+                "img": "media/coin-collector.png"
             },
             {
                 "title" : "Appunti Italiani - API",
@@ -116,7 +123,8 @@
                     "Simple API that lets users make a list of vocabulary words"
                 ],
                 "link": "https://appunti-italiani-api.herokuapp.com/",
-                "git": "https://github.com/lpd8987/430-Project-1"
+                "git": "https://github.com/lpd8987/430-Project-1",
+                "img": "media/italian-api.png"
             },
             {
                 "title" : "Dead by Memelight",
@@ -129,7 +137,8 @@
                     "Generates player builds and gear from a set of data"
                 ],
                 "link": "https://people.rit.edu/lpd8987/DeadByMemelight/",
-                "git": "https://github.com/lpd8987/DeadByMemelight"
+                "git": "https://github.com/lpd8987/DeadByMemelight",
+                "img": "media/dead-by-memelight.png"
             },
             {
                 "title" : "Jello Jump",
@@ -142,7 +151,8 @@
                     "Challenges players to get the fastest time while grabbing collectibles"
                 ],
                 "link": "https://people.rit.edu/lpd8987/330/project-2/about.html",
-                "git": "https://github.com/awc1437332/330_Project_2"
+                "git": "https://github.com/awc1437332/330_Project_2",
+                "img": "media/jello-jump.png"
             },
             {
                 "title" : "Animazione Italiana",
@@ -155,7 +165,8 @@
                     "Creative avenue for detailing information on a specific subject"
                 ],
                 "link": "https://people.rit.edu/lpd8987/351/",
-                "git": "https://github.com/lpd8987/AnimazioneItaliana"
+                "git": "https://github.com/lpd8987/AnimazioneItaliana",
+                "img": "media/italian-site.png"
             },
             {
                 "title" : "Eques",
@@ -169,7 +180,8 @@
                     "Adaptive text"
                 ],
                 "link": "https://people.rit.edu/lpd8987/235/project3/game.html",
-                "git": "https://github.com/lpd8987/eques"
+                "git": "https://github.com/lpd8987/eques",
+                "img": "media/eques.png"
             }
         ]
     }

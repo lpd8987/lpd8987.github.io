@@ -1,12 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/works.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/main-style.css">
+    <script src="https://kit.fontawesome.com/a5911a690a.js" crossorigin="anonymous"></script>
     <title>Louie's Portfolio</title>
 </head>
-<body>
-    
+
+<body class="is-dark">
+    <!--Navbar-->
+    <nav class="navbar has-shadow is-black">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <i class="fas fa-keyboard fa-2x"></i>
+            </a>
+
+            <a role="button" class="navbar-burger" data-target="navbarBasicExample">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu is-active">
+            <div class="navbar-start">
+                <a class="navbar-item" href="index.html">
+                    Home
+                </a>
+
+                <a class="navbar-item is-active" href="works.html">
+                    Works
+                </a>
+
+                <a class="navbar-item" href="about.html">
+                    About
+                </a>
+            </div>
+
+            <div class="navbar-end">
+                <a class="navbar-item">
+                    <i class="fab fa-square-github fa-2x"></i>
+                </a>
+
+                <a class="navbar-item">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <h1>Hello User,</h1>
+    <!--Modal Menu-->
+    <div id="modalMenu" class="is-hidden content box p-3 m-3 ml-4">
+        <div class="columns is-centered">
+            <div class="column is-7">
+                <div>
+                    <h1 class="title" id="modalTitle"></h1>
+                    <h2 class="subtitle" id="modalCreated"></h2>
+                </div>
+
+                <img id="modalImg" src="media/square.jpg" alt="photo of project">
+            </div>
+
+            <div class="column is-4">
+                <div class="content">
+                    <h2 class="subtitle">Tech</h2>
+                    <p id="modalTech" class="column is-three-quarters"></p>
+                </div>
+
+                <div class="content">
+                    <div class="columns">
+                        <h2 class="column is-half subtitle mb-0">About</h2>
+                        <div class="column">
+                            <button id="switchBtn" class="button size-medium">Switch to bullet points</button>
+                        </div>
+                    </div>
+
+                    <div class="columns">
+                        <ul id="modalList" class="column is-full"></ul>
+                        <p id="modalDesc" class="column is-full"></p>
+                    </div>
+                </div>
+
+                <div class="columns">
+                    <div class="column is-three-fifths">
+                        <a class="button is-fullwidth" id="modalLink" href="">
+                            <i class="fas fa-link"></i>
+                            &nbsp
+                            Project
+                        </a>
+                    </div>
+
+                    <div class="column is-three-fifths">
+                        <a class="button is-fullwidth" id="modalGitLink" href="">
+                            <i class="fab fa-github"></i>
+                            &nbsp
+                            GitHub
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="column is-narrow is-1">
+                <button id="closeBtn" class="delete is-large"></button>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar has-shadow is-black is-fixed-bottom">
+        <h2 class="navbar-item is-expanded">Louie D'Angelo 2023</h2>
+    </nav>
 </body>
+
 </html>

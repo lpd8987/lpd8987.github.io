@@ -1,49 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/works.js"></script>
-    <link rel="stylesheet" href="styles/main-style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/main-style.css">
+    <script src="https://kit.fontawesome.com/a5911a690a.js" crossorigin="anonymous"></script>
     <title>Louie's Portfolio</title>
 </head>
-<body>
-    <h1>LD Portfolio Page</h1>
-    <p>more content to come!</p>
 
+<body class="has-text-bold is-size-5">
+    <!--Navbar-->
+    <nav class="navbar has-shadow is-black">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <i class="fas fa-keyboard fa-2x"></i>
+            </a>
 
-    <div class="modal is-active">
-        <div>
-            <h1 class="title" id="modalTitle"></h1>
-            <h2 class="subtitle" id="modalCreated"></h2>
+            <a role="button" class="navbar-burger" data-target="navbarBasicExample">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
         </div>
 
-        <div class="columns">
-            <div class="column">
-                <img src="media/square.jpg" alt="">
+        <div id="navbarBasicExample" class="navbar-menu is-active has-text-black">
+            <div class="navbar-start">
+                <a class="navbar-item is-active" href="index.html">
+                    Home
+                </a>
+
+                <a class="navbar-item" href="works.html">
+                    Works
+                </a>
+
+                <a class="navbar-item" href="about.html">
+                    About
+                </a>
             </div>
-    
-            <div class="column">
-                <div class="content">
-                    <h2 class="subtitle">Tech</h2>
-                    <p id="modalTech"></p>
-                </div>
-    
-                <div class="content">
-                    <h2 class="subtitle">About</h2>
-                    <ul id="modalList"></ul>
-                    <p id="modalDesc"></p>
-                </div>
+
+            <div class="navbar-end">
+                <a class="navbar-item">
+                    <i class="fab fa-square-github fa-2x"></i>
+                </a>
+
+                <a class="navbar-item">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
             </div>
         </div>
-        
-        <div>
-            <a class="button" id="modalLink" href="">Link</a>
-            <a class="button" id="modalGitLink" href="">GitHub</a>
-        </div>
-    </div>
-    
+    </nav>
+
+    <h1>Hello User,</h1>
+
+    <nav class="navbar has-shadow is-black is-fixed-bottom">
+        <h2 class="navbar-item is-expanded">Louie D'Angelo 2023</h2>
+    </nav>
 </body>
+
 </html>
