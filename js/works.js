@@ -51,7 +51,7 @@ const createProjectDiv = (targetParent, projObj) => {
 
     //newDiv.style.width = "100vw";
     newDiv.style.height = "90px";
-    newDiv.classList.add("button", "is-outlined", "is-fullwidth", "is-light", "m-1", "p-1");
+    newDiv.classList.add("button", "is-outlined", "is-fullwidth", "is-info", "m-1", "p-1");
 
     targetParent.appendChild(newDiv);
     newDiv.onclick = () => {openModal(projObj)};

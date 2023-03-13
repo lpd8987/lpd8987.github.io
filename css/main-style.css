@@ -27,6 +27,13 @@ body, button {
     font-size: large;
 }
 
+#modalMenu {
+    position: absolute !important;
+    left: 1vw;
+    top: 5vw;
+    width: 95vw !important;
+}
+
 #greetingBubble {
     margin-bottom: 25px;
     padding: 25px;

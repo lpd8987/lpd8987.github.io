@@ -5,7 +5,7 @@
             {
                 "title" : "Shock Lobster: Shock & Claw",
                 "created" : "September 2022 - Present",
-                "tech" : "Blender, Github, Unity 3D, Unity Universal Render Pipeline, Unity Shader Graph, Adobe Illustrator, C#",
+                "tech" : "<i class=\"fa-solid fa-cube\"></i> Blender, <i class=\"fa-brands fa-github\"></i> Github, <i class=\"fa-brands fa-unity\"></i> Unity 3D, <i class=\"fa-brands fa-unity\"></i> Unity Universal Render Pipeline, <i class=\"fa-brands fa-unity\"></i> Unity Shader Graph, <i class=\"fa-solid fa-bezier-curve\"></i> Adobe Illustrator, <i class=\"fa-solid fa-code\"></i> C#",
                 "details": "This is a passion project I have been working on since September 2022 that originated from a silly idea I had one day while brainstorming. The project is built using open source assets from the Unity Asset Store as well as many of my own creation. My assets include: animated and textured 3D models using Blender, and smooth and thematic UI using Adobe Illustrator. The current prototype has been playtested, but there is still a lot of room for improvement that is currently underway. Check back frequently for updates as March 2023 will be a very development heavy month!",
                 "points": [
                     "Independent passion project",
@@ -20,7 +20,7 @@
             {
                 "title" : "An Empire of Bronze",
                 "created" : "December 2022 - January 2022",
-                "tech" : "Visual Studio Code, Adobe Illustrator, ParadoxScript",
+                "tech" : "<i class=\"fa-solid fa-code\"></i> Visual Studio Code, <i class=\"fa-solid fa-bezier-curve\"></i> Adobe Illustrator, <i class=\"fa-solid fa-code\"></i> ParadoxScript",
                 "details": "This is a mod I created independently for the popular tactical history rpg Crusader Kings 3. Its lore is centered around bringing back the long gone kingdoms of the Bronze Age, with a twist of fantasy. All of the specifics can be found on the Steam Workshop page. The most challenging part of this project was trying to incorporate the correct variable and file structure outlined in the doucmentation, as most of it details modding prior versions of the game.",
                 "points": [
                     "Independent project",
@@ -34,7 +34,7 @@
             {
                 "title" : "Potions of Anxiety",
                 "created" : "October 2022 - November 2022",
-                "tech" : "Twine, Corel Painter Essentials 5, HTML, CSS, JavaScript",
+                "tech" : "<i class=\"fa-solid fa-pen-nib\"></i> Twine, <i class=\"fa-solid fa-paintbrush\"></i> Corel Painter Essentials 5, <i class=\"fa-brands fa-html5\"></i> HTML, <i class=\"fa-brands fa-css3-alt\"></i> CSS, <i class=\"fa-brands fa-square-js\"></i> JavaScript",
                 "details": "This is an interactive narrative I made for my Introduction to Interactive Narratives class in Fall 2022. Utilizing Twine, storytelling techniques, and basic CSS styling, I tried my hand at writing a narrative with multiple endings. ",
                 "points": [
                     "Academic project",
@@ -48,12 +48,11 @@
             {
                 "title" : "Abaddon",
                 "created" : "January 2022 - May 2022",
-                "tech" : "Unity 3D, Unity HDRP Render Pipeline, Perforce Version Control, Confluence (Documentation), C#",
-                "details": "This is a senior capstone project hosted by the ArtCenter College of Design in California which I had the opportunity to work on in Spring 2022. As a programmer, my job was to create different dialogue systems using Unity's scriptable objects and coroutines. The dialogue system is similar to games like Undertale or Animal Crossing, in which each letter of a line of dialogue is printed one at a time, each playing a noise of character \"voice\". The output could then be further augmented by allowing devs to tweak pauses between letters and punctuation, as well as easily assign sets of sound clips held in scriptable objects.\nFurther, there were 3 different types of dialogue to implement: Ambient- triggered by walking up to NPCs and LERPing opacity, Tutorial- triggered by game events, and repeats until a specific condition is met, and Conversational- dialogue that creates a back-and-forth character interaction with different dialogue choices.",
+                "tech" : "<i class=\"fa-brands fa-unity\"></i> Unity 3D, <i class=\"fa-brands fa-unity\"></i> Unity HDRP Render Pipeline, <i class=\"fa-solid fa-code-branch\"></i> Perforce Version Control, <i class=\"fa-solid fa-file\"></i> Confluence (Documentation), <i class=\"fa-solid fa-code\"></i> C#",
+                "details": "This is a senior capstone project hosted by the ArtCenter College of Design in California which I had the opportunity to work on in Spring 2022. As a programmer, my job was to create different dialogue systems using Unity's scriptable objects and coroutines. There were 3 different types of dialogue to implement: Ambient- triggered by walking up to NPCs and LERPing opacity, Tutorial- triggered by game events, and repeats until a specific condition is met, and Conversational- dialogue that creates a back-and-forth character interaction with different dialogue choices.",
                 "points": [
                     "Academic project",
                     "Acted as developer on a senior capstone project",
-                    "3 implementations of an Animal Crossing-like dialogue system",
                     "Ambient Dialouge- triggered by walking up to NPCs and LERPing opacity",
                     "Tutorial Dialogue- triggered by game events, and repeats until a specific condition is met",
                     "Conversational Dialogue- dialogue that creates a back-and-forth character interaction with different dialogue choices."
@@ -64,7 +63,7 @@
             {
                 "title" : "The Dungeon Under Chicago",
                 "created" : "October 2021 - November 2021",
-                "tech" : "Unity 2D, GitHub, Aseprite, C#",
+                "tech" : "<i class=\"fa-brands fa-unity\"></i> Unity 2D, <i class=\"fa-brands fa-github\"></i> GitHub, <i class=\"fa-solid fa-pencil\"></i> Aseprite, <i class=\"fa-solid fa-code\"></i> C#",
                 "details": "This is a prototype rouge-like I worked on as part of a group project Game Development class. During this project, I acted as project lead, helping guide the overall vision of the game through conceptualization and asset production using Aseprite to create and animate sprites. I also helped with some scripting behaviors and incorporation of level design. ",
                 "points": [
                     "Academic project",
@@ -80,7 +79,7 @@
             {
                 "title" : "Wizdoku",
                 "created" : "September 2021 - October 2021",
-                "tech" : "Unity 2D, GitHub, Aseprite, C#",
+                "tech" : "<i class=\"fa-brands fa-unity\"></i> Unity 2D, <i class=\"fa-brands fa-github\"></i> GitHub, <i class=\"fa-solid fa-pencil\"></i> Aseprite, <i class=\"fa-solid fa-code\"></i> C#",
                 "details": "This is a prototype puzzle game I worked on as part of a group project Game Development class. During this project, I acted as asset lead, helping guide the overall vision of the game through conceptualization and asset production and implementation. I also helped create the basic AI for the opponent.",
                 "points": [
                     "Academic project",
@@ -100,7 +99,7 @@
             {
                 "title" : "Coin Collector",
                 "created" : "November 2022 - December 2022",
-                "tech" : "HTML, CSS, Bulma CSS, JavaScript, NodeJS, ReactJS, ExpressJS, PixiJS, Mongo DB, Redis, Heroku, GitHub, Circle CI",
+                "tech" : "<i class=\"fa-brands fa-html5\"></i> HTML, <i class=\"fa-brands fa-css3-alt\"></i> CSS, <i class=\"fa-brands fa-css3-alt\"></i> Bulma CSS, <i class=\"fa-brands fa-square-js\"></i> JavaScript, <i class=\"fa-brands fa-node-js\"></i> NodeJS, <i class=\"fa-brands fa-react\"></i> ReactJS, <i class=\"fa-brands fa-node-js\"></i> ExpressJS, <i class=\"fa-brands fa-square-js\"></i> PixiJS, <i class=\"fa-solid fa-database\"></i> Mongo DB, <i class=\"fa-solid fa-database\"></i> Redis, <i class=\"fa-solid fa-server\"></i> Heroku, <i class=\"fa-brands fa-github\"></i> GitHub, <i class=\"fa-solid fa-circle-notch\"></i> Circle CI",
                 "details": "I created this web application for my Rich Media Applications II class. The focus of the app is leveraging backend frameworks via NodeJS and Mongo DB to create the experience of an online game that people can log on and try to climb the leaderboard. The game itself is very simple, but challenging, and the website affords users a multitude of options update their account information.",
                 "points": [
                     "Academic project",
@@ -115,7 +114,7 @@
             {
                 "title" : "Appunti Italiani - API",
                 "created" : "September 2022 - October 2022",
-                "tech" : "HTML, CSS, Bulma CSS, JavaScript, NodeJS, GitHub, Heroku, Circle CI",
+                "tech" : "<i class=\"fa-brands fa-html5\"></i> HTML, <i class=\"fa-brands fa-css3-alt\"></i> CSS, <i class=\"fa-brands fa-css3-alt\"></i> Bulma CSS, <i class=\"fa-brands fa-square-js\"></i> JavaScript, <i class=\"fa-brands fa-node-js\"></i> NodeJS, <i class=\"fa-brands fa-github\"></i> GitHub, <i class=\"fa-solid fa-server\"></i> Heroku, <i class=\"fa-solid fa-circle-notch\"></i> Circle CI",
                 "details": "This is an API and web application I created for my Rich Media Applications II class. It is a simple API that uses Node JS to get vocabulary words and definititions from a list of terms for users to post to a central vocabulary study list. It is certainly a project that I would like to expand upon at some point due to my interest in Italian language.",
                 "points": [
                     "Academic project",
@@ -129,7 +128,7 @@
             {
                 "title" : "Dead by Memelight",
                 "created" : "August 2022",
-                "tech" : "HTML, CSS, JavaScript, Local Storage",
+                "tech" : "<i class=\"fa-brands fa-html5\"></i> HTML, <i class=\"fa-brands fa-css3-alt\"></i> CSS, <i class=\"fa-brands fa-square-js\"></i> JavaScript, <i class=\"fa-solid fa-box-open\"></i> Local Storage",
                 "details": "This is a simple independent project I spent a few days creating in August 2022 for myself and my friends. Drawing from a set of data, it generates perk and gear loadouts either randomized or of my own creation for players. I am in no way affiliated with the Behaviour game studio, and I made it clear in the application itself that the app is fanmade and not officially affiliated with the game or studio. Regardless, the application served my friends and I well during our game nights, and anyone else who would like to use it is more than welcome to!",
                 "points": [
                     "Independent project",
@@ -143,7 +142,7 @@
             {
                 "title" : "Jello Jump",
                 "created" : "April 2022 - May 2022",
-                "tech" : "HTML, HTML Canvas, CSS, Bulma CSS, JavaScript, Local Storage, MatterJS, GitHub",
+                "tech" : "<i class=\"fa-brands fa-html5\"></i> HTML, <i class=\"fa-brands fa-html5\"></i> HTML Canvas, <i class=\"fa-brands fa-css3-alt\"></i> CSS, <i class=\"fa-brands fa-css3-alt\"></i> Bulma CSS, <i class=\"fa-brands fa-square-js\"></i> JavaScript, <i class=\"fa-solid fa-box-open\"></i> Local Storage, <i class=\"fa-brands fa-square-js\"></i> MatterJS, <i class=\"fa-brands fa-github\"></i> GitHub",
                 "details": "This is a project I worked on in tandem with a teammate for my Rich Media Applications I class. We created a 2D platformer web game using a combination of Matter JS- a physics simulation JavaScript framework, and HTML Canvas. Additional challenge was added to the game by posing the challenge to players to get the fastest time they could while grabbing collectibles. In particular, I spent most of my time setting up the game and its assets. My teammate was responsible for the overall styling of the site and our custom components",
                 "points": [
                     "Academic project",
@@ -157,7 +156,7 @@
             {
                 "title" : "Animazione Italiana",
                 "created" : "April 2022 - May 2022",
-                "tech" : "HTML, CSS, Bulma CSS, JavaScript, GitHub",
+                "tech" : "<i class=\"fa-brands fa-html5\"></i> HTML, <i class=\"fa-brands fa-css3-alt\"></i> CSS, <i class=\"fa-brands fa-css3-alt\"></i> Bulma CSS, <i class=\"fa-brands fa-square-js\"></i> JavaScript, <i class=\"fa-brands fa-github\"></i> GitHub",
                 "details": "This is a website I created for my final project for my class about Modern Italian Cinema. Instead of writing a report, I chose to make it in a website format to make it more interactive and visually appealing- by having direct links to the films I discussed in the report. I had originally planned to have a forum/discussion section of the website, but it was a stretch goal I did not get to.",
                 "points": [
                     "Academic/Independent project",
@@ -171,7 +170,7 @@
             {
                 "title" : "Eques",
                 "created" : "April 2021 - May 2021",
-                "tech" : "HTML, CSS, JavaScript, PixiJS",
+                "tech" : "<i class=\"fa-brands fa-html5\"></i> HTML, <i class=\"fa-brands fa-css3-alt\"></i> CSS, <i class=\"fa-brands fa-css3-alt\"></i> Bulma CSS, <i class=\"fa-brands fa-square-js\"></i> JavaScript, <i class=\"fa-brands fa-square-js\"></i> PixiJS, <i class=\"fa-brands fa-github\"></i> GitHub",
                 "details": "This is a web game I created for my Web Technology for Game Developers class. It uses Pixi JS and basic JavaScipt functionality to make a text-based adventure game that allows for exploration and combat. The descriptions for each room are also adaptive depending on whether the player has visited/interacted with the room before.",
                 "points": [
                     "Academic project",
